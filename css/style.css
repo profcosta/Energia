@@ -1,15 +1,10 @@
-/* Reset de estilos */
-* {
-    margin: 0;
-    padding: 0;
+*{
+    margin:0;
+    padding:0;
     box-sizing: border-box;
 }
-
-/* Estilos principais */
-
 body{
-    display: flex;
-    font-family: Arial, sans-serif;
+    display:flex;
     background-color: #f0f0f0;
     color: #333;
     line-height: 1.6;
@@ -21,25 +16,25 @@ section{
 }
 
 section1{
-    background-color: red;
-    border: 2px solid blue;
+    background-color: cyan;
+    border: 2px solid red;
 }
 
-h2 {
+h2{
     font-size: 36px;
 }
 
-/* Estilos para o header e menu */
-header {  
+header{
     width: 100%;
     background-color: #fff;
     text-align: center;
-    padding: 20px 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
     display: flex;
     justify-content: space-between;
-}
+    }
 
-.logo img {
+.logo img{
     max-width: 100px;
     height: auto;
     margin-right: 20px;
@@ -58,78 +53,98 @@ nav ul li {
     margin-right: 45px;
 }
 
-nav ul li a {
+nav ul li a{
     text-decoration: none;
     color: #000;
     font-weight: bold;
 }
 
-.texto {
+.texto{
     padding: 30px;
     border-radius: 20px;
 }
 
-.texto p {
+.texto p{
     font-size: 18px;
     margin-top: 20px;
     text-align: justify;
 }
+
 .texto div{
     margin: 10px;
     display: flex;
     justify-content: center;
 }
 
-#problema, #solucoes{
+#solucao img{
+    width: 600px;
+}
+
+#problema, #solucao{
     background-color: #1a237e;
     color: #fff;
     margin: 20px;
 }
 
-#solucoes img{
-    width: 200px;
+#rodape{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
 }
 
-.banner-content {
+.banner{
     position: relative;
     text-align: center;
 }
 
-.banner-content img {
+.banner img{
     width: 100%;
 }
 
-.banner-content h1 {
+.banner h1{
     position: absolute;
     font-size: 60px;
     color: #fff;
-    right: 10px;
     width: 50%;
     top: 50px;
+    right: 10px;
 }
 
-.banner-content ul {
+.banner ul{
     position: absolute;
     font-size: 18px;
     color: #fff;
     top: 150px;
     right: 10px;
-    width: 50%;
+    width: 30%;
     list-style: none;
     text-align: center;
     padding: 0;
     font-weight: bold;
     line-height: 2;
+
 }
 
-.banner-content ul :first-child{
+.banner ul :first-child{
     font-size: 24px;
     text-decoration: underline;
 }
 
-#rodape {
-    background-color: #333;
-    color: #fff;
+.pontinho{
+    padding-left: 40px;
+}
+
+.divide{
+    width: 100%;
     text-align: center;
-    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.divide div{
+    display: block;
+    padding-left: -20px;
+}
+#problema img{
+    width: 500px;
 }
